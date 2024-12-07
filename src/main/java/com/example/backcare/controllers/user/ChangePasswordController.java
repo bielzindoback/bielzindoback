@@ -8,10 +8,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 import com.example.backcare.controllers.dto.ChangePasswordRequest;
 import com.example.backcare.repositories.user.UserRepository;
-
-import org.springframework.web.bind.annotation.PathVariable;
-
-
 @Controller
 public class ChangePasswordController {
 
